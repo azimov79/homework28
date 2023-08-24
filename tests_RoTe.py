@@ -102,8 +102,8 @@ def test_007_negative_by_email(selenium):
     form = AuthForm(selenium)
 
     # ввод почты
-    form.username.send_keys('aa@aa.aa')
-    form.password.send_keys('any_password')
+    form.username.send_keys('dd@dd.dd')
+    form.password.send_keys('den_password')
     sleep(5)
     form.btn_click()
 
