@@ -39,7 +39,7 @@ def test_003_change_placeholder(selenium):
     form.username.send_keys(Keys.DELETE)
 
     # ввод почты
-    form.username.send_keys('89nay@mail.ru')
+    form.username.send_keys('79den@mail.ru')
     form.password.send_keys('_')
     sleep(5)
 
@@ -76,7 +76,7 @@ def test_005_negative_by_phone(selenium):
 
     # ввод телефона
     form.username.send_keys('+1234567890')
-    form.password.send_keys('any_password')
+    form.password.send_keys('den_password')
     sleep(5)
     form.btn_click()
 
